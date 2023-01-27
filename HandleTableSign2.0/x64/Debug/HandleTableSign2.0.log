@@ -1,0 +1,11 @@
+﻿  Building 'HandleTableSign2.0' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  DriverEntry.c
+C:\Users\1321\source\repos\HandleTableSign2.0\DriverEntry.c(125,17): warning C4047: '=': 'HANDLE' differs in levels of indirection from 'int'
+  HandleTableSign2.0.vcxproj -> C:\Users\1321\source\repos\HandleTableSign2.0\x64\Debug\HandleTableSign2.0.sys
+  Done Adding Additional Store
+  Successfully signed: C:\Users\1321\source\repos\HandleTableSign2.0\x64\Debug\HandleTableSign2.0.sys
+  
+  TrustAsia Signature Tools v3.2.0
+  
+  C:\Users\1321\source\repos\HandleTableSign2.0/x64/debug/HandleTableSign2.0.sys	Start signature...	Signature success!
+  Signature finish.
