@@ -1,0 +1,1 @@
+﻿C:\Program Files (x86)\Windows Kits\10\build\WindowsDriver.common.targets(235,5): error :  'Win32' is not a valid architecture for Kernel mode drivers or UMDF drivers
