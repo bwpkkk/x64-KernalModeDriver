@@ -1,0 +1,30 @@
+﻿  Building 'HandleTableTrick' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  driverentry.c
+C:\Users\1321\source\repos\HandleTableTrick\driverentry.c(76,23): warning C4047: '!=': 'HANDLE' differs in levels of indirection from 'int'
+  IRP.c
+C:\Users\1321\source\repos\HandleTableTrick\IRP.c(49,53): warning C4047: 'function': 'PULONG' differs in levels of indirection from 'PULONG *'
+C:\Users\1321\source\repos\HandleTableTrick\IRP.c(49,48): warning C4024: 'FindModule': different types for formal and actual parameter 3
+C:\Users\1321\source\repos\HandleTableTrick\IRP.c(70,41): warning C4047: 'function': 'ULONG' differs in levels of indirection from 'PULONG'
+C:\Users\1321\source\repos\HandleTableTrick\IRP.c(70,37): warning C4024: 'FindFun': different types for formal and actual parameter 2
+C:\Users\1321\source\repos\HandleTableTrick\IRP.c(97,66): warning C4047: 'function': 'unsigned int *' differs in levels of indirection from 'ULONG64'
+C:\Users\1321\source\repos\HandleTableTrick\IRP.c(97,56): warning C4024: 'ExpLookupHandleTableEntry': different types for formal and actual parameter 1
+C:\Users\1321\source\repos\HandleTableTrick\IRP.c(93,1): warning C4047: 'initializing': 'ULONG64' differs in levels of indirection from 'PULONG64'
+  myfunction.c
+C:\Users\1321\source\repos\HandleTableTrick\myfunction.c(59,50): warning C4133: 'function': incompatible types - from 'PWCHAR' to 'const char *'
+C:\Users\1321\source\repos\HandleTableTrick\myfunction.c(189,1): warning C4047: 'initializing': 'ULONG_PTR' differs in levels of indirection from 'PVOID'
+C:\Users\1321\source\repos\HandleTableTrick\myfunction.c(225,1): warning C4047: 'initializing': 'ULONG_PTR' differs in levels of indirection from 'PVOID'
+C:\Users\1321\source\repos\HandleTableTrick\myfunction.c(257,1): warning C4047: 'initializing': 'ULONG_PTR' differs in levels of indirection from 'PVOID'
+  PageTableSplit.c
+C:\Users\1321\source\repos\HandleTableTrick\PageTableSplit.c(89,1): warning C4047: 'initializing': 'PPTEx64' differs in levels of indirection from 'ULONG64'
+C:\Users\1321\source\repos\HandleTableTrick\PageTableSplit.c(96,1): warning C4047: 'initializing': 'PPTEx64' differs in levels of indirection from 'ULONG64'
+C:\Users\1321\source\repos\HandleTableTrick\PageTableSplit.c(134,26): warning C4047: 'function': 'ULONG64' differs in levels of indirection from 'PVOID'
+C:\Users\1321\source\repos\HandleTableTrick\PageTableSplit.c(134,18): warning C4024: 'SetExecutePage': different types for formal and actual parameter 1
+  Generating Code...
+  HandleTableTrick.vcxproj -> C:\Users\1321\source\repos\HandleTableTrick\x64\Debug\HandleTableTrick.sys
+  Done Adding Additional Store
+  Successfully signed: C:\Users\1321\source\repos\HandleTableTrick\x64\Debug\HandleTableTrick.sys
+  
+  TrustAsia Signature Tools v3.2.0
+  
+  C:\Users\1321\source\repos\HandleTableTrick/x64/debug/HandleTableTrick.sys	Start signature...	Signature success!
+  Signature finish.
