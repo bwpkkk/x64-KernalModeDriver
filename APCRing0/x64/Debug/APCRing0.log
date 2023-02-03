@@ -1,0 +1,37 @@
+﻿  Building 'APCRing0' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping x64\Debug\APCRing0.inf
+  Stamping [Version] section with DriverVer=01/28/2023,19.3.50.940
+  DriverEntry.c
+C:\Users\1321\source\repos\APCRing0\DriverEntry.c(28,16): warning C4022: 'insertUserApc': pointer mismatch for actual parameter 1
+  InsertAPC.c
+C:\Users\1321\source\repos\APCRing0\InsertAPC.c(116,37): warning C4022: 'PsLookupThreadByThreadId': pointer mismatch for actual parameter 1
+C:\Users\1321\source\repos\APCRing0\InsertAPC.c(210,86): warning C4047: 'function': 'PKNORMAL_ROUTINE' differs in levels of indirection from 'PUCHAR'
+C:\Users\1321\source\repos\APCRing0\InsertAPC.c(210,75): warning C4024: 'KeInitializeApc': different types for formal and actual parameter 6
+C:\Users\1321\source\repos\APCRing0\InsertAPC.c(208,16): warning C4996: 'ExAllocatePool': ExAllocatePool is deprecated, use ExAllocatePool2.
+  myfunction.c
+C:\Users\1321\source\repos\APCRing0\myfunction.c(59,50): warning C4133: 'function': incompatible types - from 'PWCHAR' to 'const char *'
+C:\Users\1321\source\repos\APCRing0\myfunction.c(189,1): warning C4047: 'initializing': 'ULONG_PTR' differs in levels of indirection from 'PVOID'
+C:\Users\1321\source\repos\APCRing0\myfunction.c(225,1): warning C4047: 'initializing': 'ULONG_PTR' differs in levels of indirection from 'PVOID'
+C:\Users\1321\source\repos\APCRing0\myfunction.c(257,1): warning C4047: 'initializing': 'ULONG_PTR' differs in levels of indirection from 'PVOID'
+  PageTableSplit.c
+C:\Users\1321\source\repos\APCRing0\PageTableSplit.c(90,1): warning C4047: 'initializing': 'PPTEx64' differs in levels of indirection from 'ULONG64'
+C:\Users\1321\source\repos\APCRing0\PageTableSplit.c(101,1): warning C4047: 'initializing': 'PPTEx64' differs in levels of indirection from 'ULONG64'
+C:\Users\1321\source\repos\APCRing0\PageTableSplit.c(135,71): warning C4047: 'function': 'ULONG64' differs in levels of indirection from 'PVOID'
+C:\Users\1321\source\repos\APCRing0\PageTableSplit.c(135,63): warning C4024: 'GetPML4': different types for formal and actual parameter 1
+C:\Users\1321\source\repos\APCRing0\PageTableSplit.c(135,90): warning C4047: 'function': 'ULONG64' differs in levels of indirection from 'PVOID'
+C:\Users\1321\source\repos\APCRing0\PageTableSplit.c(135,82): warning C4024: 'GetPDPTE': different types for formal and actual parameter 1
+C:\Users\1321\source\repos\APCRing0\PageTableSplit.c(135,107): warning C4047: 'function': 'ULONG64' differs in levels of indirection from 'PVOID'
+C:\Users\1321\source\repos\APCRing0\PageTableSplit.c(135,99): warning C4024: 'GetPDE': different types for formal and actual parameter 1
+C:\Users\1321\source\repos\APCRing0\PageTableSplit.c(135,124): warning C4047: 'function': 'ULONG64' differs in levels of indirection from 'PVOID'
+C:\Users\1321\source\repos\APCRing0\PageTableSplit.c(135,116): warning C4024: 'GetPTE': different types for formal and actual parameter 1
+C:\Users\1321\source\repos\APCRing0\PageTableSplit.c(142,44): warning C4047: 'function': 'ULONG64' differs in levels of indirection from 'PVOID'
+C:\Users\1321\source\repos\APCRing0\PageTableSplit.c(142,36): warning C4024: 'SetExecutePage': different types for formal and actual parameter 1
+  Generating Code...
+  APCRing0.vcxproj -> C:\Users\1321\source\repos\APCRing0\x64\Debug\APCRing0.sys
+  Done Adding Additional Store
+  Successfully signed: C:\Users\1321\source\repos\APCRing0\x64\Debug\APCRing0.sys
+  
+  TrustAsia Signature Tools v3.2.0
+  
+  C:\Users\1321\source\repos\APCRing0/x64/debug/APCRing0.sys	Start signature...	Signature success!
+  Signature finish.
